@@ -6,3 +6,5 @@ GGUF Models are used for inferencing with llama-cpp
 
 
 in 'app.py' (mistral-7b-instruct-v0.1.Q2_K.gguf) is used for any stock data analysis. Mixtral model can also be used depending on the local computer's physical memory(RAM)
+
+in 'multimodal.py' , user can enter images along with prompt and 'llava' model is used for inferencing
