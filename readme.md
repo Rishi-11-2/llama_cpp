@@ -11,6 +11,6 @@ in 'multimodal.py' , user can enter images along with prompt and 'llava' model i
 
 
 Models used :
-[text](models/mistral-7b-instruct-v0.1.Q2_K.gguf)
-[text](models/llava-v1.5-7b-mmproj-Q4_0.gguf)
-[text](models/llava-v1.5-7b-Q4_K.gguf)
+(models/mistral-7b-instruct-v0.1.Q2_K.gguf)
+(models/llava-v1.5-7b-mmproj-Q4_0.gguf)
+(models/llava-v1.5-7b-Q4_K.gguf)
