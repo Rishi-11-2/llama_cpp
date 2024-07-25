@@ -9,24 +9,24 @@ in 'app.py' (mistral-7b-instruct-v0.1.Q2_K.gguf) is used for any stock data anal
 
 in 'multimodal.py' , user can enter images along with prompt and 'llava' model is used for inferencing. 
 
-*Single Model Chat:
+* Single Model Chat:
 python -m --model models/mistral-7b-instruct-v0.1.Q4_0.gguf 
 
-*Single Model Chat with GPU Offload:
+* Single Model Chat with GPU Offload:
 python -m --model models/mistral-7b-instruct-v0.1.Q4_0.gguf --n_gpu -1
 
-*Single Model Function Calling with GPU Offload:
+* Single Model Function Calling with GPU Offload:
 python -m --model models/mistral-7b-instruct-v0.1.- Q4_0.gguf --n_gpu -1 --chat functionary
 
-*Multiple Model Load with Config:
+* Multiple Model Load with Config:
 python -m --config_file config.json
 
-*Multi Modal Models:
+* Multi Modal Models:
 python -m llama_cpp.server --model models/llava-v1.5-7b-Q4_K.gguf --clip_model_path models/llava-v1.5-7b-mmproj-Q4_0.gguf --n_gpu -1 --chat llava-1-5 
 
 Models used :
-*mistral-7b-instruct-v0.1.Q2_K.gguf
+* mistral-7b-instruct-v0.1.Q2_K.gguf
 
-*llava-v1.5-7b-mmproj-Q4_0.gguf
+* llava-v1.5-7b-mmproj-Q4_0.gguf
 
-llava-v1.5-7b-Q4_K.gguf
+* llava-v1.5-7b-Q4_K.gguf
