@@ -72,7 +72,7 @@ try:
 
         messages=[{
             'role':'user',
-            'content':prompt+"\n"+str(prices)
+            'content':prompt+"\n"+str(prices) # important prices should be string
         }],
 
         #Add stream
